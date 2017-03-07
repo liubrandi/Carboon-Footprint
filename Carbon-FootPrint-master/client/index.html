@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Carbon Footprint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <style>
+    h1 {
+        color: #ADD8E6;
+        font-size: 140%;
+        font-family: Century Gothic, sans-serif;
+    }
+    h2{
+      font-size: 200%;
+      font-family: Century Gothic, sans-serif;
+    }
+    h3{
+      font-size: 120%;
+      font-family: Century Gothic, sans-serif;
+    }
+    p{
+      font-family: Century Gothic, sans-serif;
+    }
+    button{
+      font-family: Century Gothic, sans-serif;
+    }
+    body {}
+    .myclass {}
+    #myid {}
+  </style>
+</head>
+<body class="myclass" id="myid" style="background-color:#2b2b2b">
+  <div class="jumbotron">
+      <h2>Pocket Futures</h2>
+      <h3>Offset your Carbon emissons today!</h3>
+      <p><a class="btn btn-primary btn-lg" href="learn.html" role="button">Learn more</a></p>
+    </div>
+  <h1> View Your Carbon Footprint!</h1>
+  <div class="container col-sm-12">
+    <canvas id="myChart" width="400" height="400"></canvas>
+    
+    <div class="col-sm-12 panel panel-default">
+      <div class="panel-body">
+        <a class="btn btn-default navbar-btn" href="travel.html" role="button">Travel</a>
+<!--        <button type="button" class="btn btn-default navbar-btn">Travel</button>-->
+        <a class="btn btn-default navbar-btn" href="utilities.html" role="button">Utilities</a>
+        <a class="btn btn-default navbar-btn" href="food.html" role="button">Food</a>
+        
+<!--
+        <button type="button" class="btn btn-default navbar-btn">Utilities</button>
+        <button type="button" class="btn btn-default navbar-btn">Food</button>
+-->
+      </div>
+    </div>
+   
+  </div>
+  <!-- Vendor -->
+  <script src="node_modules/chart.js/dist/Chart.js"></script>
+  <!-- Application -->
+  <script src="app.js"></script>
+</body>
+</html>
+
+
